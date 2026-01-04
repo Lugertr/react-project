@@ -1,8 +1,8 @@
-import './Figure.scss';
+import styles from './Figure.module.scss';
 
 function Figure() {
     return (
-        <div className="figure">figureTEST</div>
+        <div className={styles.figure}>figureTEST</div>
     )
 }
 
