@@ -1,7 +1,7 @@
-import ThemeIcon from "@/shared/assets/icons/theme.svg?react";
-import { useTheme } from "@/shared/lib/hooks/useTheme/useTheme";
-import { Icon } from "@/shared/ui/Icon";
-import { memo, useCallback } from "react";
+import ThemeIcon from '@/shared/assets/icons/theme.svg?react';
+import { useTheme } from '@/shared/lib/hooks/useTheme/useTheme';
+import { Icon } from '@/shared/ui/Icon';
+import { memo, useCallback } from 'react';
 
 interface ThemeSwitcherProps {
     className?: string;

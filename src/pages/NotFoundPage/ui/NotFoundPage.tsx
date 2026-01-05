@@ -7,10 +7,7 @@ interface NotFoundPageProps {
 
 export const NotFoundPage = ({ className }: NotFoundPageProps) => {
     return (
-        <div
-            data-testid="NotFoundPage"
-            className={classNames(cls.NotFoundPage, {}, [className])}
-        >
+        <div data-testid="NotFoundPage" className={classNames(cls.NotFoundPage, {}, [className])}>
             Страница не найдена
         </div>
     );

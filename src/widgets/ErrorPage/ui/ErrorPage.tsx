@@ -7,7 +7,6 @@ interface ErrorPageProps {
 }
 
 export const ErrorPage = ({ className }: ErrorPageProps) => {
-
     const reloadPage = () => {
         location.reload();
     };

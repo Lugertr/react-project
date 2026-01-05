@@ -2,7 +2,7 @@ export enum AppRoutes {
     MAIN = 'main',
     ABOUT = 'about',
     CHESS = 'chess',
-        NOT_FOUND = 'not_found',
+    NOT_FOUND = 'not_found',
 }
 
 export const getRouteMain = () => '/';

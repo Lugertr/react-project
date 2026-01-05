@@ -1,3 +1,1 @@
-import { ChessPageAsync } from './ui/ChessPage.async';
-
-export { ChessPageAsync as ChessPage };
+export { ChessPageAsync as ChessPage } from './ui/ChessPage.async';
