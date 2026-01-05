@@ -27,10 +27,7 @@ export const Sidebar = memo(({ className }: SidebarProps) => {
     );
 
     return (
-        <aside
-            data-testid="sidebar"
-            className={classNames(cls.SidebarRedesigned, { [cls.collapsedRedesigned]: collapsed }, [className])}
-        >
+        <aside data-testid="sidebar" className={classNames(cls.Sidebar, { [cls.collapsed]: collapsed }, [className])}>
             <AppLogo size={collapsed ? 30 : 50} className={cls.appLogo} />
             <VStack role="navigation" gap="8" className={cls.items}>
                 {itemsList}
