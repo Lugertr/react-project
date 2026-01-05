@@ -3,12 +3,8 @@ import { useTheme } from '@/shared/lib/hooks/useTheme/useTheme';
 import { Icon } from '@/shared/ui/Icon';
 import { memo, useCallback } from 'react';
 
-interface ThemeSwitcherProps {
-    className?: string;
-}
-
-export const ThemeSwitcher = memo(({ className }: ThemeSwitcherProps) => {
-    const { theme, toggleTheme } = useTheme();
+export const ThemeSwitcher = memo(() => {
+    const { toggleTheme } = useTheme();
 
     const onToggleHandler = useCallback(() => {
         toggleTheme();
