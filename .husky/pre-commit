@@ -1,0 +1,4 @@
+npm ci --force
+npm run build
+npm run lint:ts
+npm run lint:scss

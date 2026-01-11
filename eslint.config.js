@@ -36,7 +36,10 @@ export default defineConfig([
       "unicorn/no-array-for-each": "off",
       "unicorn/no-array-callback-reference": "off",
       "unicorn/error-message": "off",
-      "unicorn/prefer-query-selector": "off"
+      "unicorn/prefer-query-selector": "off",
+      "react-refresh/only-export-components": "off",
+      "unicorn/prefer-spread": "off",
+      "unicorn/no-array-reduce": "off"
     },
   },
 ]);

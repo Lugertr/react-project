@@ -1,8 +1,8 @@
 import { classNames, type Mods } from '@/shared/lib/classNames/classNames';
 import { memo, useEffect, useEffectEvent, useRef, useState, type InputHTMLAttributes, type ReactNode } from 'react';
 import { HStack } from '../Stack';
-import { Text } from '../Text';
-import cls from './Button.module.scss';
+import { TextSpan } from '../TextSpan/TextSpan';
+import cls from './Input.module.scss';
 
 type HTMLInputProps = Omit<InputHTMLAttributes<HTMLInputElement>, 'value' | 'onChange' | 'readOnly' | 'size'>;
 
@@ -90,7 +90,7 @@ export const Input = memo((props: InputProps) => {
     if (label) {
         return (
             <HStack max gap="8">
-                <Text text={label} />
+                <TextSpan text={label} />
                 {input}
             </HStack>
         );
