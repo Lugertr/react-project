@@ -39,7 +39,7 @@ export const DynamicModuleLoader = (props: DynamicModuleLoaderProps) => {
                 });
             }
         };
-    }, []);
+    }, [dispatch, reducers, removeAfterUnmount, store.reducerManager]);
 
     return <>{children}</>;
 };
